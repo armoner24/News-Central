@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<title>Register-NC</title>
+<style>
+div.bottom{
+	position: fixed; text-align: center; bottom: 30px; left: 460px;
+}
+body{
+	background-color: powderblue;
+}
+table{
+	background-color: yellow;
+	border:2px solid black;
+	vertical-align : top;
+}
+</style>
+</head>
+<body>
+<h1 align="center">NEWS CENTRAL</h1>
+<h2 align="center">Get your daily dose of International News</h2>
+<p>Congratulations, All the procedures are completed.</p>
+<p>Now, You can register from here.</p>
+<table align="center">
+<tr><td><h3 align="center">REGISTER</h3></td></tr>
+<form action="register.php" method="post">
+<tr><td>First Name:</td><td> <input type="text" name="firstname" required="required"></input><br></td></tr>
+<tr><td>Last Name:</td><td>  <input type="text" name="lastname" required></input><br></td></tr>
+<tr><td>E-Mail:	</td><td>    <input type="email" name="email" required></input><br></td></tr>
+<tr><td>Gender:</td><td>Male- <input type="radio" name="gender" required></input>Female- <input type="radio" name="gender" required></input><br></td></tr>
+<tr><td>Username:</td><td>   <input type="text" name="username" required></input><br></td></tr>
+<tr><td>Password:</td><td>   <input type="password" name="password" required></input><br></td></tr>
+<tr><td><input type="submit" name="register" value="Register" align="center"></input></td></tr>
+</form>
+</table>
+If you have an account already, please <a href="login.html">[Click Here]</a> to login.
+<div class="bottom">©2018|Created and Maintained by Aaditya Vaidya|All Rights Reserved</div>
+</body>
+</html>

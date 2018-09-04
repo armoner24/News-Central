@@ -1,0 +1,4 @@
+python[libraries: urllib2, BeautifulSoup]
+wamp/xampp
+
+
